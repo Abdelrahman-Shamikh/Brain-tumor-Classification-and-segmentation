@@ -68,10 +68,15 @@ Optimized for potential **mobile deployment** to assist in real-world medical se
 - **Accuracy:** **98.32%**  
 - **Classes:** Glioma, Meningioma, Pituitary Tumor, No Tumor
 
+<img width="296" height="268" alt="image" src="https://github.com/user-attachments/assets/95818fe3-167f-4f68-aa47-1c68e668b17a" />
+
+
 ### Segmentation
 - **Model:** Attention U-Net  
 - **Dice Score:** **87%**  
 - **IoU:** **79.5%**
+
+<img width="335" height="115" alt="image" src="https://github.com/user-attachments/assets/ed946802-07f3-40b7-bc66-3a5c01d986d6" />
 
 ---
 
