@@ -3,7 +3,7 @@
 <!-- HEADER STYLE: CLASSIC -->
 <div align="center">
 
-<img src="https://cdn-icons-png.flaticon.com/512/149/149452.png" width="150" alt="Brain Icon"/>
+<img src="https://tse3.mm.bing.net/th/id/OIP.skegbc4R6FlIE1YRLih5lQHaGL?pid=Api&P=0&h=220" width="150" alt="Brain Icon"/>
 
 # BRAIN-TUMOR-CLASSIFICATION-AND-SEGMENTATION
 
