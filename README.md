@@ -105,14 +105,11 @@ Optimized for potential **mobile deployment** to assist in real-world medical se
   - [Scikit-learn](https://scikit-learn.org/stable/)
 ### Installation
 
-# Clone the repository
+#### Clone the repository
 git clone https://github.com/Abdelrahman-Shamikh/Brain-tumor-Classification-and-segmentation.git
 
-# Navigate to the project folder
+#### Navigate to the project folder
 cd Brain-tumor-Classification-and-segmentation
-
-# Install dependencies
-pip install -r requirements.txt
 ### Usage
 #### open kaggle 
 Then open and run the notebooks:
