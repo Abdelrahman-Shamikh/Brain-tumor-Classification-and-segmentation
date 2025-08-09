@@ -60,7 +60,76 @@ Optimized for potential **mobile deployment** to assist in real-world medical se
 - **Comprehensive Documentation** with final paper, poster, and seminar slides.
 
 ---
+## Dataset 
+### Segmantation
+#### Training & Validation
 
+The primary dataset for training and validation is sourced from:  
+[Kaggle: Brain Tumor Segmentation](https://www.kaggle.com/datasets/nikhilroxtomar/brain-tumor-segmentation)
+
+- Contains MRI images and corresponding tumor masks for segmentation.  
+- Used for training the segmentation model and validating during training.
+
+#### Testing
+
+For testing, the dataset used is:  
+[Kaggle: Brain Tumor Segmentation Dataset by Atika Akter](https://www.kaggle.com/datasets/atikaakter11/brain-tumor-segmentation-dataset)
+
+- Contains MRI images with tumor annotations reserved for model evaluation on unseen data.
+
+## Image Processing and Data Augmentation
+
+### B. Image Processing for Classification
+
+All input MRI images underwent a standardized preprocessing pipeline to ensure consistency and enhance model generalization:
+
+- **Tensor Conversion:**  
+  Images were converted to PyTorch tensors to enable GPU-accelerated processing.
+
+- **Resizing:**  
+  Uniformly resized to 150×150 pixels using bilinear interpolation with anti-aliasing to preserve structural integrity during downsampling.
+
+- **Brightness Augmentation:**  
+  Applied color jitter to randomly adjust brightness to 85–115% of original values, simulating clinical imaging variations.
+
+- **Standardization:**  
+  Normalized pixel values using ImageNet statistics through a standardized pixel equation.
+
+---
+
+### C. Image Preprocessing for Segmentation
+
+All MRI scans and corresponding masks underwent the following preprocessing steps:
+
+1. **Channel Handling:**  
+   Grayscale images were expanded to 3-channel format for compatibility with pretrained encoders.
+
+2. **Resizing:**  
+   Uniformly resized to 256×256 pixels using bilinear interpolation to maintain aspect ratio.
+
+3. **Normalization:**  
+   - Pixel values scaled to [0, 1] range.  
+   - Standardized using mean = 0.0 and std = 1.0.
+
+4. **Mask Processing:**  
+   Converted to binary format (0 = background, 1 = tumor) for segmentation tasks.
+
+5. **Tensor Conversion:**  
+   Transformed to PyTorch tensors via `ToTensorV2`.
+
+---
+
+### D. Data Augmentation Strategy for Segmentation
+
+Applied only during training to increase dataset diversity:
+
+| Augmentation Type   | Parameters                         |
+|--------------------|----------------------------------|
+| **Rotation & Resizing** | Random rotations (±15°), scale (0.9–1.1) |
+| **Flipping**        | Vertical/Horizontal (p=0.5)       |
+| **Intensity Variation** | Brightness/Contrast (±15%)         |
+| **Noise Injection** | Gaussian noise (σ = 0.05)         |
+    
 ## Results
 
 ### Classification
