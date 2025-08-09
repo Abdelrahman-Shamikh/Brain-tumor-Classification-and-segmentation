@@ -3,7 +3,7 @@
 <!-- HEADER STYLE: CLASSIC -->
 <div align="center">
 
-<img src="readmeai/assets/logos/purple.svg" width="30%" alt="Project Logo"/>
+<img src="https://cdn-icons-png.flaticon.com/512/1027/1027136.png" width="150" alt="Brain Icon"/>
 
 # BRAIN-TUMOR-CLASSIFICATION-AND-SEGMENTATION
 
@@ -21,8 +21,9 @@
 [![NiBabel](https://img.shields.io/badge/NiBabel-4E9CAE?style=for-the-badge&logo=python&logoColor=white)](https://nipy.org/nibabel/)
 
 <br />
----
+
 </div>
+
 ---
 
 ## Table of Contents
