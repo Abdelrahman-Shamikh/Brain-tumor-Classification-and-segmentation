@@ -1,4 +1,4 @@
-<div id="top">
+<a id="top"></a>
 
 <!-- HEADER STYLE: CLASSIC -->
 <div align="center">
