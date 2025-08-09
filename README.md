@@ -68,7 +68,7 @@ Optimized for potential **mobile deployment** to assist in real-world medical se
 - **Accuracy:** **98.32%**  
 - **Classes:** Glioma, Meningioma, Pituitary Tumor, No Tumor
 
-<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/95818fe3-167f-4f68-aa47-1c68e668b17a" />
+<img src="https://github.com/user-attachments/assets/95818fe3-167f-4f68-aa47-1c68e668b17a" alt="image" width="200" />
 
 
 ### Segmentation
