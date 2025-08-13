@@ -3,7 +3,7 @@
 <!-- HEADER STYLE: CLASSIC -->
 <div align="center">
 
-<img src="https://tse3.mm.bing.net/th/id/OIP.skegbc4R6FlIE1YRLih5lQHaGL?pid=Api&P=0&h=220" width="150" alt="Brain Icon"/>
+<img src="https://sdmntprukwest.oaiusercontent.com/files/00000000-000c-6243-ba8e-e154f6172029/raw?se=2025-08-13T16%3A23%3A18Z&sp=r&sv=2024-08-04&sr=b&scid=3e58cce3-032e-59b8-875c-2543f1890b6d&skoid=f71d6506-3cac-498e-b62a-67f9228033a9&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-13T11%3A08%3A57Z&ske=2025-08-14T11%3A08%3A57Z&sks=b&skv=2024-08-04&sig=%2BLaAu0DGOY3jUIKoyTEu3VJfHrjEUPKzXA007dcminc%3D" width="150" alt="Brain Icon"/>
 
 # BRAIN-TUMOR-CLASSIFICATION-AND-SEGMENTATION
 
